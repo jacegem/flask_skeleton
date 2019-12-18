@@ -4,6 +4,7 @@
 
 ```shell
 pip install poetry
+poetry config settings.virtualenvs.create false
 poetry install
 poetry shell
 flask run
